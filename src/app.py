@@ -44,7 +44,7 @@ activities = {
         "schedule": "Mondays and Thursdays, 4:00 PM - 5:30 PM",
         "max_participants": 15,
         "participants": ["james@mergington.edu"]
-    },  
+    },
     "Tennis Club": {
         "description": "Learn tennis skills and participate in friendly matches",
         "schedule": "Tuesdays and Saturdays, 3:00 PM - 4:30 PM",

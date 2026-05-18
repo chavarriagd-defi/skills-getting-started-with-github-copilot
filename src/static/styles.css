@@ -2,17 +2,17 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Nunito", "Trebuchet MS", sans-serif;
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Nunito", "Trebuchet MS", sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #1f2937;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f5f5f5;
+  background: linear-gradient(160deg, #edf4ff 0%, #f6fbf8 50%, #fff4e8 100%);
 }
 
 header {
@@ -58,20 +58,50 @@ section h3 {
 }
 
 .activity-card {
-  margin-bottom: 15px;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background-color: #f9f9f9;
+  margin-bottom: 16px;
+  padding: 16px;
+  border: 1px solid #d9e3f4;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+  box-shadow: 0 8px 18px rgba(36, 65, 110, 0.08);
 }
 
 .activity-card h4 {
-  margin-bottom: 10px;
-  color: #0066cc;
+  margin-bottom: 8px;
+  color: #0f4ca6;
+  font-size: 1.15rem;
 }
 
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.participants-section {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background-color: #eef4ff;
+  border: 1px solid #d7e4ff;
+}
+
+.participants-title {
+  margin-bottom: 6px;
+  color: #1a237e;
+}
+
+.participants-list {
+  padding-left: 18px;
+}
+
+.participants-list li {
+  margin: 4px 0;
+  color: #1f3b64;
+}
+
+.participants-list .empty-participants {
+  list-style-type: circle;
+  color: #5a6c87;
+  font-style: italic;
 }
 
 .form-group {
